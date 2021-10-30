@@ -11,7 +11,7 @@ $heroImage = $heroImageArray['sizes']['large'];
 
 $about_title = get_field('about_title');
 $about_desc = get_field('about_description');
-$aboutImageArray = get_field('about_image');
+$aboutImageArray = get_field('about_link');
 $aboutImage = $aboutImageArray['sizes']['large'];
 
 ?>
@@ -26,9 +26,9 @@ $aboutImage = $aboutImageArray['sizes']['large'];
           <div class="col-lg-6 text-light d-flex flex-column justify-content-center align-items-center">
             <h1 class="display-1"><?php echo $title; ?></h1>
            <?php echo $description; ?>
-           <button type="button" class="btn btn-outline-light">
+           <button type="button" class="btn btn-outline-light" id="button1">
            <a style="text-decoration: none; color: white"href="<?php echo $link['url']; ?>">
-            <?php echo $link['title']; ?>
+           Veckans Recept!
             </a>
             </button>
           </div>
@@ -36,7 +36,7 @@ $aboutImage = $aboutImageArray['sizes']['large'];
       </div>
     </div>
   </section>
-
+<!-- 
   <section class="generic" id="about">
     <div class="container">
       <h2 class="display-5 mb-2"><?php echo $about_title; ?></h2>
@@ -55,7 +55,7 @@ $aboutImage = $aboutImageArray['sizes']['large'];
         <div class="col-sm-12 col-md-3"></div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 <?php
