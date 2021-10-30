@@ -11,5 +11,9 @@ Detta är veckans recept. Kunden kan lätt uppdatera veckans recept med intrukti
 ![image](https://user-images.githubusercontent.com/70195874/139557358-4183beb7-61a4-49e7-a06c-dfb963264584.png)
 
 # Start Sidan
-Detta är det första du ser på hemsidan. Detta hämtas dynamiskt från Min Field
+Detta är det första du ser på hemsidan. Detta hämtas dynamiskt från Min Field.
 ![image](https://user-images.githubusercontent.com/70195874/139557454-1079afa8-ead1-4574-9c81-df0a5c57a2bc.png)
+
+¤ Veckans Recept
+Detta är veckans recept som du når genom knappen på startsidan eller från nav-baren. Detta ändras dynamiskt via Recipe Field.
+![image](https://user-images.githubusercontent.com/70195874/139557513-23a0e446-68f3-4710-b590-780e4cf7f169.png)
