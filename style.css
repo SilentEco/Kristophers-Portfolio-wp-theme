@@ -2,20 +2,25 @@
 Theme Name: Kristophers-Portfolio-wp-theme
 Text Domain: Kristophers-Portfolio-wp-theme
 */
-
+html {
+  margin: 0px;
+  padding: 0px;
+}
 .red-bg {
-  background: linear-gradient(rgba(87, 28, 82, 0.9), rgba(130, 3, 168, 0.9));
+  background: gray;
 }
 
-header {
+.gobakgrund {
   height: 10vh;
-  background: linear-gradient((rgba(49, 133, 49, 0.9)), rgba(87, 28, 82, 0.9));
+  background: linear-gradient(white, gray);
+  border-bottom: black solid 10px;
 }
 
-.generic {
-  padding: 100px 0;
+footer {
+  font-size: small;
+  text-align: center;
 }
 
-.footer {
-  background: linear-gradient(rgba(87, 28, 28, 0.9), rgba(0, 0, 0, 0.9));
+#button1 {
+  margin-top: 20px;
 }
